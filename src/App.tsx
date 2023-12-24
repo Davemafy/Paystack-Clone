@@ -1,12 +1,17 @@
-import React from 'react';
-import './App.css';
+import Popup from "./components/Popup";
+import Header from "./components/Header";
+
+import Page from "./components/Page";
+import "./App.css";
 
 function App() {
-  return (
-    <h1 className="text-3xl font-bold underline text-red-600">
-      Simple React Typescript Tailwind Sample
-    </h1>
-  );  
+    return (
+        <div className="w-full text-oxfordBlue">
+            <Popup />
+            <Header />
+            <Page />
+        </div>
+    );
 }
 
 export default App;
